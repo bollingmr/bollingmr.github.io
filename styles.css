@@ -151,6 +151,13 @@ nav ul li a:hover {
   column-gap: 15px;
   align-items: end;
 }
+
+.tab-content img {
+  grid-column-start: 2;
+  grid-row: 1 / 4;
+  width: 350px;
+}
+
 @media (max-width: 870px) {
   .tab-content .grid-container {
     display: block;
@@ -165,11 +172,6 @@ nav ul li a:hover {
     margin: 15px 0;
     width: 70%;
   }
-}
-.tab-content img {
-  grid-column-start: 2;
-  grid-row: 1 / 4;
-  width: 350px;
 }
 
 #home a {
