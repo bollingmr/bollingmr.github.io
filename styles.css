@@ -30,20 +30,17 @@ main {
   flex-grow: 1;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo a {
-  line-height: 0;
-}
-
 .logo img {
-  max-height: 40px;
-  width: auto;
+  height: 40px;
   padding: 10px 20px;
   vertical-align: middle;
+}
+
+@media (max-width: 500px) {
+  .logo img {
+    height: 30px;
+    padding: 5px 10px;
+  }
 }
 
 /*Hamburger Menu Base Styles */
@@ -124,6 +121,12 @@ nav ul li a:hover {
   border-radius: 5px;
   margin-top: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 500px) {
+  .tab-content {
+    padding: 10px 5px;
+  }
 }
 
 /* Show only active tab */
