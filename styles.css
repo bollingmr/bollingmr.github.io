@@ -123,20 +123,18 @@ nav ul li a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-width: 500px) {
-  .tab-content {
-    padding: 10px 5px;
-  }
-}
-
 /* Show only active tab */
 .tab-content.active {
   display: block;
 }
-
 /* General Tab styles */
 .tab-content {
   padding: 40px 40px;
+}
+@media (max-width: 500px) {
+  .tab-content {
+    padding: 10px 5px;
+  }
 }
 .tab-content h1 {
   font-size: 32px;
