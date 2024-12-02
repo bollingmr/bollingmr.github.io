@@ -29,6 +29,7 @@ tabLinks.forEach((link) => {
     e.preventDefault();
     const tabId = link.getAttribute("data-tab");
     showTab(tabId);
+
     document.querySelector("nav").classList.toggle("show");
   });
 });
