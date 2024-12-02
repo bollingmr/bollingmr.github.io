@@ -38,8 +38,8 @@ main {
 
 @media (max-width: 500px) {
   .logo img {
-    height: 30px;
-    padding: 5px 10px;
+    height: 25px;
+    padding: 5px 20px;
   }
 }
 
@@ -133,7 +133,7 @@ nav ul li a:hover {
 }
 @media (max-width: 500px) {
   .tab-content {
-    padding: 10px 5px;
+    padding: 20px 5px;
   }
 }
 .tab-content h1 {
