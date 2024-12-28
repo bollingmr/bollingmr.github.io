@@ -43,7 +43,7 @@ main {
   }
 }
 
-/*Hamburger Menu Base Styles */
+/*Hamburger Menu Styles */
 .hamburger-menu {
   display: none;
   flex-direction: column;
@@ -115,7 +115,6 @@ nav ul li a:hover {
 /* Tab Content styles */
 .tab-content {
   display: none;
-  /* Hidden by default */
   padding: 20px;
   background-color: #fff;
   border-radius: 5px;
