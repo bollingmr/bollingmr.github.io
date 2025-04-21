@@ -1,0 +1,28 @@
+.portfolio {
+}
+
+.portfolio-intro {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-intro img {
+  width: 300px;
+  border-radius: 5px;
+}
+
+.projects {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
