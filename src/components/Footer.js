@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; 2024 Michael Bolling. All rights reserved.</p>
+      <p>&copy; 2025 Michael Bolling. All rights reserved.</p>
       <ul>
         <li>
           <a href="/privacy">Privacy Policy</a>
